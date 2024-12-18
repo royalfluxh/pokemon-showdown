@@ -1555,7 +1555,7 @@
 			"weight": 7,
 			"sets": [{
 				"species": "Alomomola",
-				"weight": 33,
+				"weight": 30,
 				"item": ["Heavy-Duty Boots", "Rocky Helmet"],
 				"ability": ["Regenerator"],
 				"evs": {"hp": 252, "def": 252, "spd": 4},
@@ -1565,7 +1565,7 @@
 				"moves": [["Flip Turn"], ["Scald"], ["Wish"], ["Protect"]]
 			}, {
 				"species": "Alomomola",
-				"weight": 33,
+				"weight": 30,
 				"item": ["Heavy-Duty Boots", "Rocky Helmet"],
 				"ability": ["Regenerator"],
 				"evs": {"hp": 4, "def": 252, "spd": 252},
@@ -1575,13 +1575,13 @@
 				"moves": [["Flip Turn"], ["Scald"], ["Wish"], ["Protect"]]
 			}, {
 				"species": "Alomomola",
-				"weight": 34,
+				"weight": 40,
 				"item": ["Assault Vest"],
 				"ability": ["Regenerator"],
 				"evs": {"hp": 20, "def": 236, "spd": 252},
 				"ivs": {"spe": 0},
 				"nature": ["Sassy"],
-				"teraType": ["Ghost", "Flying"],
+				"teraType": ["Fairy"],
 				"moves": [["Flip Turn"], ["Scald"], ["Play Rough"], ["Mirror Coat"]]
 			}]
 		},
@@ -2349,8 +2349,26 @@
 			"weight": 3,
 			"sets": [{
 				"species": "Meowscarada",
-				"weight": 100,
-				"item": ["Heavy-Duty Boots", "Choice Scarf", "Choice Band"],
+				"weight": 50,
+				"item": ["Choice Scarf"],
+				"ability": ["Protean"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": ["Jolly"],
+				"teraType": ["Grass", "Dark"],
+				"moves": [["Flower Trick"], ["Knock Off"], ["Triple Axel"], ["U-turn"]]
+      }, {
+        "species": "Meowscarada",
+				"weight": 25,
+				"item": ["Choice Band"],
+				"ability": ["Protean"],
+				"evs": {"atk": 252, "spd": 4, "spe": 252},
+				"nature": ["Jolly"],
+				"teraType": ["Grass", "Dark"],
+				"moves": [["Flower Trick"], ["Knock Off"], ["Triple Axel"], ["U-turn"]]
+      }, {
+        "species": "Meowscarada",
+				"weight": 25,
+				"item": ["Heavy-Duty Boots"],
 				"ability": ["Protean"],
 				"evs": {"atk": 252, "spd": 4, "spe": 252},
 				"nature": ["Jolly"],
@@ -2658,7 +2676,7 @@
 			}, {
 				"species": "Iron Hands",
 				"weight": 30,
-				"item": ["Shuca Berry"],
+				"item": ["Assault Vest"],
 				"ability": ["Quark Drive"],
 				"evs": {"atk": 252, "spd": 172, "spe": 84},
 				"nature": ["Adamant"],
